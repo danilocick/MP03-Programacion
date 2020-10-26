@@ -6,6 +6,7 @@ public class Llapis {
 
     public Llapis(int color) {
         this.color = color;
+        this.gruix = 1.0f;
     }
 
     public Llapis(int color, float gruix){
@@ -34,5 +35,12 @@ public class Llapis {
                 "color=" + color +
                 ", gruix=" + gruix +
                 '}';
+    }
+
+    @Override
+    public int compareTo(){
+        if(this.color==){
+
+        }
     }
 }
